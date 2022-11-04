@@ -73,8 +73,8 @@
    * typography
    */
 
-  /* font-family */
-  --ff-poppins: 'Poppins', sans-serif;
+  /* font-family --ff-poppins: 'Poppins', sans-serif; */
+  --ff-poppins: 'Georgia', serif;
 
   /* font-size */
   --fs-1: 24px;
@@ -84,7 +84,16 @@
   --fs-5: 15px;
   --fs-6: 14px;
   --fs-7: 13px;
-  --fs-8: 11px;
+  --fs-8: 12.5px;
+  --fs-9: 12px;
+  --fs-10: 11.5px;
+  --fs-8:  11px;
+  --fs-7:  10.5px;
+  --fs-10:  10px;
+  --fs-11:  9px;
+  --fs-12:  8px;
+  --fs-13:  7px;
+  --fs-14:  6px;
 
   /* font-weight */
   --fw-300: 300;
@@ -238,6 +247,8 @@ article.active {
   font-size: var(--fs-7);
   font-weight: var(--fw-500);
 }
+
+.h6 { font-size: var(--fs-5); }
 
 .article-title {
   position: relative;
@@ -424,7 +435,7 @@ main {
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
-  font-size: var(--fs-7);
+  font-size: var(--fs-8);
 }
 
 .contact-info address { font-style: normal; }
@@ -1310,6 +1321,14 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 12px;
     font-size: 18px;
   }
+
+  .icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 18px;
+  }
+
 
 
 
