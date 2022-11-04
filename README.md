@@ -3,7 +3,7 @@
 
 ## Demo
 
-![Linkage](https://wulinszu.github.io/)
+[Linkage](https://wulinszu.github.io/)
 
 
 
